@@ -10,5 +10,5 @@
 <p>hello world.</p>
  <img src="http://cdn.pcwallart.com/images/halo-reach-noble-team-wallpaper-wallpaper-2.jpg"  style="width:auto;">
 </body>
-<link rel="stylesheet" href="/html/styles.css">
+<link rel=".css" href="/html/styles.css">
 </html>
