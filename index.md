@@ -5,7 +5,7 @@
 </head>
 <body>
 <body>
-
+<div class="w3-container w3-orange">
 <h1>miles </h1>
 <p>hello world.</p>
  <img src="http://cdn.pcwallart.com/images/halo-reach-noble-team-wallpaper-wallpaper-2.jpg"  style="width:auto;">
