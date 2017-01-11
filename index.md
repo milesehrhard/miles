@@ -18,26 +18,9 @@
 <html>
 <head>
 <style>
-h1 {
-    color: blue;
-    font-family: verdana;
-    font-size: 300%;
-}
-p  {
-    color: red;
-    font-family: courier;
-    font-size: 160%;
-}
+<link rel="stylesheet" href="http://www.w3schools.com/html/styles.css">
 </style>
 </head>
 <body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
 </body>
-</html>
-Try it Yourself »
-
-
 </html>
