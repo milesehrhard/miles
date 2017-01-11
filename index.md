@@ -7,6 +7,6 @@
 
 <h1>miles </h1>
 <p>hello world.</p>
-
+ <img src="maxresdefault.jpg" alt="Flowers" style="width:auto;">
 </body>
 </html>
