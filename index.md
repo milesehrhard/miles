@@ -21,6 +21,4 @@
 		<h4>THIS IS THE CONTACT PAGE </h4> 
 		<li><a href="">About</a></li>
 		<h4>this page tells you about my DP</h4>
-		<img src="image/Capture.PNG"> 
-	</body>
-</html>
+		<body background="http://static2.cdn.ubi.com/ncsa/splintercell/blacklist/wallpaper/SvM_1366x768.jpg">.selector
