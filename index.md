@@ -24,4 +24,3 @@
 		<img src="image/Capture.PNG"> 
 	</body>
 </html>
-cfc
