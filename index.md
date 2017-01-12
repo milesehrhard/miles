@@ -1,28 +1,27 @@
+<!doctype html>
+ 
 
-<html>
-<head>
-<title>miles is the best</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-</head>
-<body>
-<body>
-<div class="w3-container w3-orange">
-<h1>miles </h1>
-<p>hello world.</p>
- <img src="http://cdn.pcwallart.com/images/halo-reach-noble-team-wallpaper-wallpaper-2.jpg"  style="width:auto;">
-</body>
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-<a href= "/html/styles.css">CS Pathway Reading</a><!DOCTYPE html>
-<html>
-<head>
-<style>
-<link rel="stylesheet" href="http://www.w3schools.com/html/styles.css">
-</style>
-</head>
-<body>
-</body>
+<html lang="en">
+    <head>
+		<link rel="stylesheet" type="text/css" href="new 1.css" />
+    	<meta charset="utf-8">
+    	<title>MILES'S WEBSITE</title>
+		
+    </head>
+    <body>
+		<h1>  </h1>
+    	<h1>
+         MILES WEBSITE
+    	</h1>
+		
+		<li><a href="https://scratch.mit.edu/studios/1479300/">scratch</a></li>
+		<h4>
+		click on this link to go to the class DP in scratch
+		</h4>
+		<li><a href="contact page.html">Contact</a></li>
+		</h4>THIS IS THE CONTACT PAGE </h4> 
+		<li><a href="">About</a></li>
+		<h4>this page tells you about my DP</h4>
+		<img src="image/Capture.PNG"> 
+	</body>
 </html>
