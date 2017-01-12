@@ -13,7 +13,7 @@
          MILES WEBSITE
     	</h1>
 		
-		<li><a href="https://scratch.mit.edu/studios/1479300/">scratch</a></li>
+		<li><a href="https://docs.google.com/a/davincischools.org/document/d/1_pSM5rP3Ao9UfN7UoFIaSXDYXtN6BiAMVOe94059tmc/edit?usp=sharing/">my google doc</a></li>
 		<h4>
 		click on this link to go to the class DP in scratch
 		</h4>
