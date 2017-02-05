@@ -16,4 +16,4 @@
 		<li><a href="https://docs.google.com/a/davincischools.org/document/d/1_pSM5rP3Ao9UfN7UoFIaSXDYXtN6BiAMVOe94059tmc/edit?usp=sharing/">my google doc</a></li>
 		
 		<body background="http://static2.cdn.ubi.com/ncsa/splintercell/blacklist/wallpaper/SvM_1366x768.jpg">
-	
+<canvas id=c></canvas>
