@@ -1,19 +1,44 @@
 <!doctype html>
- 
+<h1>Gooey Menu</h1>
+<h2>Using CSS and SVG Filters</h2>
+<h3>By <a href="http://codepen.io/lbebber">Lucas Bebber</a></h3>
+<h4>Version 1 - <a href="http://codepen.io/lbebber/pen/RNgBPP" target="_blank">Version 2</a> - <a href="http://codepen.io/lbebber/pen/pvwZJp" target="_blank">Version 3</a> - <a href="http://codepen.io/lbebber/pen/rawQKR" target="_blank">Version 4</a></h4>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-<html lang="en">
-    <head>
-		<link rel="stylesheet" type="text/css" href=".css.css" />
-    	<meta charset="utf-8">
-    	<title>MILES'S WEBSITE</title>
-		
-    </head>
-    <body>
-    	<h1>
-         MILES WEBSITE
-    	</h1>
-	
-		<li><a href="https://docs.google.com/a/davincischools.org/document/d/1_pSM5rP3Ao9UfN7UoFIaSXDYXtN6BiAMVOe94059tmc/edit?usp=sharing/">my google doc</a></li>
-		
-		<body background="http://static2.cdn.ubi.com/ncsa/splintercell/blacklist/wallpaper/SvM_1366x768.jpg">
-<canvas id=c></canvas>
+<nav class="menu">
+  <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+  <label class="menu-open-button" for="menu-open">
+    <span class="hamburger hamburger-1"></span>
+    <span class="hamburger hamburger-2"></span>
+    <span class="hamburger hamburger-3"></span>
+  </label>
+  
+  <a href="#" class="menu-item"> <i class="fa fa-bar-chart"></i> </a>
+  <a href="#" class="menu-item"> <i class="fa fa-plus"></i> </a>
+  <a href="#" class="menu-item"> <i class="fa fa-heart"></i> </a>
+  <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
+  <a href="#" class="menu-item"> <i class="fa fa-cog"></i> </a>
+
+</nav>
+
+
+<!-- filters -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+      <filter id="shadowed-goo">
+          
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+          <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+          <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+          <feBlend in2="shadow" in="goo" result="goo" />
+          <feBlend in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+      <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feBlend in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+    </defs>
+</svg>
