@@ -1,19 +1,19 @@
 /*MENU*/
 
-$('.menu, nav').click(function() {
-  if ($('.menu').hasClass('active')) {
-    $('nav ul').removeClass('active');
-    $('nav').delay(800).fadeOut('slow');
-    setTimeout(function() {
-      $('.menu').removeClass('active');
-      $('.section-wrap').removeClass('active');
+('.menu, nav').click(function() {
+  if (('.menu').hasClass('active')) {
+    ('nav ul').removeClass('active');
+    ('nav').delay(800).fadeOut('slow');
+    (function() {
+      ('.menu').removeClass('active');
+      ('.section-wrap').removeClass('active');
     }, 800);
   } else {
-    $('.menu').addClass('active');
-    $('nav').fadeIn('slow');
-    $('nav').addClass('active');
-    $('nav ul').addClass('active');
-    $('.section-wrap').addClass('active');
+    ('.menu').addClass('active');
+    ('nav').fadeIn('slow');
+    ('nav').addClass('active');
+    ('nav ul').addClass('active');
+    ('.section-wrap').addClass('active');
   }
 });
 
